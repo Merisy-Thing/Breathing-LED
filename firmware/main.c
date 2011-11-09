@@ -25,7 +25,7 @@ void MCU_init(void)
 {
 	//Clock
 	CLKPR = 1<<CLKPCE;
-	CLKPR = (1<<CLKPS2) | (1<<CLKPS0);	//300KHz
+	CLKPR = (1<<CLKPS2) | (1<<CLKPS0);	//300KHz with 9.6MHz OSC
 
 	//Pin
 	PIN_HIGH(LED_CTRL_PIN);

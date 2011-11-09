@@ -1,0 +1,13 @@
+Breathing LED, Base on iCufflinks code, Use ATtiny13A.
+
+------------------------------------------------------------------
+
+Env:
+------------------------------------------------------------------
+     IDE: AVR Studio 4
+Compiler: WinAVR-20100110
+
+===================================================================
+
+TODO: 
+	Calibration Accuracy of Internal RC Oscillator to 8MHz
